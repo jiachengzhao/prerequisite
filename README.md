@@ -22,6 +22,17 @@ loadfonts(device = "win")
 fonts()
 ```
 
-
+- Rstudio header
+```
+## ----------------------------------
+# Title: 
+# Objective: 
+# Created by: Jiacheng Zhao
+# Created on: `r Sys.Date()`
+# Copyright (c) Jiacheng Zhao, `r format(Sys.Date(), "%Y")`
+# Beijing Normal University
+# Email: zhaojiacheng@mail.bnu.edu.cn
+## ----------------------------------
+```
 
 
