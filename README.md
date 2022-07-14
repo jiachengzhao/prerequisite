@@ -12,3 +12,16 @@ require(devtools)
 setwd('C:/Users/jzhao/Documents/Nutstore/Projects')
 create('smot')
 ```
+- Import windows fonts to rstudio
+```
+library(remotes)
+remotes::install_version("Rttf2pt1", version = "1.3.8")
+library(extrafont)
+font_import()
+loadfonts(device = "win")
+fonts()
+```
+
+
+
+
