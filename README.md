@@ -13,7 +13,7 @@
   Follow [this page](https://cloud.google.com/sdk/docs/install-sdk).<br/>
   4. Install pip on Mac<br/>
   Follow [this page](https://www.geeksforgeeks.org/how-to-install-pip-in-macos/). You may need to install the command line developer tools.<br/>
-  5. Set environmental variables up<br/>
+  5. Set up environmental variables<br/>
      - Create a profile file if you don't have one by opening Terminal and issuing the command `touch .profile`, then close Terminal.<br/>
      - Add the two lines below to the profile file either manully (the file should be hidden in /Users/\<your username>\/.profile) or by `vim ~/.profile`.<br/>
      ```
