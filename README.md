@@ -21,6 +21,8 @@
      export PATH=/Users/<your username>/google-cloud-sdk/bin:$PATH
      ```
   6. Install geeup<br/>
+  First re-open Terminal, and enter the ee environment you just created by `source $HOME/miniconda3/bin/activate` and then `conda activate ee`. Install geeup by the command `pip install geeup`. After installation, test it by `geeup -h`.<br/>
+  7. Set up geeup (cookies)<br/>
   Follow [this page](https://samapriya.github.io/geeup/).<br/>
 	
   
