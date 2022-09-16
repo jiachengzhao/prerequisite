@@ -8,15 +8,10 @@
   Follow [this page](https://cloud.google.com/sdk/docs/install-sdk).<br/>
   3. Make python3 available<br/>
   Follow [this page](https://stackoverflow.com/questions/39910730/python3-is-not-recognized-as-an-internal-or-external-command-operable-program).<br/>
-  5. Set up environmental variables<br/>
-     - Create a profile file if you don't have one by opening Terminal and issuing the command `touch .profile`, then close Terminal.<br/>
-     - Add the two lines below to the profile file either manully (the file should be hidden in /Users/\<your username>\/.profile) or by `vim ~/.profile`.<br/>
-     ```
-     export PATH=/Users/<your username>/miniconda3/bin:$PATH
-     export PATH=/Users/<your username>/google-cloud-sdk/bin:$PATH
-     ```
-  6. Install geeup<br/>
-  First re-open Terminal, and enter the ee environment you just created by `source $HOME/miniconda3/bin/activate` and then `conda activate ee`. Install geeup by the command `pip install geeup`. After installation, test it by `geeup -h`.<br/>
+  4. Install geeup<br/>
+  First re-open Terminal, and enter the ee environment you just created by `conda activate ee`. Install geeup by the command `pip install geeup`. After installation, test it by `geeup -h`.<br/>
+  5. Install geopandas<br/>
+  `conda install geopandas`.<br/>
   7. Set up geeup (cookies)<br/>
   Follow [this page](https://samapriya.github.io/geeup/).<br/>
 - Command line tool installation (for Mac)
