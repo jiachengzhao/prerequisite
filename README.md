@@ -26,7 +26,7 @@
   Follow [this page](https://samapriya.github.io/geeup/).<br/>
 	
   
-  
+  `geeup getmeta --input '/Volumes/My Passport/nc' --metadata '/Volumes/My Passport'`
   
 Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings
 https://stackoverflow.com/questions/65348890/python-was-not-found-run-without-arguments-to-install-from-the-microsoft-store
