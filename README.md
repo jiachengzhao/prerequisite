@@ -12,8 +12,13 @@
   First re-open Terminal, and enter the ee environment you just created by `conda activate ee`. Install geeup by the command `pip install geeup`. After installation, test it by `geeup -h`.<br/>
   5. Install geopandas<br/>
   `conda install geopandas`.<br/>
-  7. Set up geeup (cookies)<br/>
+  6. Set up geeup (cookies)<br/>
   Follow [this page](https://samapriya.github.io/geeup/).<br/>
+  7. Examples<br/>
+  `geeup -h`<br/>
+  `geeup getmeta --input "C:/Users/jzhao/Downloads/nc" --metadata "C:/Users/jzhao/Downloads/nc/metadata.csv"`<br/>
+  
+  
 - Command line tool installation (for Mac)
   1. Use /bin/sh<br/>
   Open Terminal on Mac then `command + ,` to Preferences. Change Default login shell to /bin/sh.<br/>
@@ -39,7 +44,7 @@
   Follow [this page](https://samapriya.github.io/geeup/).<br/>
 	
   
-  `geeup getmeta --input 'C:\Users\jzhao\Downloads\nc' --metadata 'C:\Users\jzhao\Downloads\nc'`
+  `geeup getmeta --input "C:/Users/jzhao/Downloads/nc" --metadata "C:/Users/jzhao/Downloads/nc/metadata.csv"`
   
 Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings
 https://stackoverflow.com/questions/65348890/python-was-not-found-run-without-arguments-to-install-from-the-microsoft-store
