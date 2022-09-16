@@ -1,4 +1,4 @@
-# Frequently used codes
+# Prerequisite for a new PC/Mac before they can do scientific analyses
 
 ## Google Earth Engine (GEE)
 - Command line tool installation (for Mac)
