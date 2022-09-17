@@ -72,15 +72,13 @@ require(devtools)
 setwd('C:/Users/jzhao/Documents/Nutstore/Projects')
 create('smot')
 ```
-- Import windows fonts to rstudio
+- Import windows fonts to R
 ```
 install.packages('remotes')
-library(remotes)
 remotes::install_version("Rttf2pt1", version = "1.3.8")
 install.packages('extrafont')
-library(extrafont)
-font_import()
-loadfonts(device = "win")
+extrafont::font_import()
+extrafont::loadfonts(device = "win")
 fonts()
 ```
 
