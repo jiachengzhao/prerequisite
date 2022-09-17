@@ -27,6 +27,10 @@
      ```
      geeup upload --source "C:/Users/jzhao/Downloads/tif" --dest "projects/ee-jzhao-external-dataset/assets/raster/urban-climate-in-europe/paris" -m "C:/Users/jzhao/Downloads/tif/metadata.csv" -u "zhao_jiacheng@outlook.com"
      ```
+     - delete image/image collection
+     ```
+     geeup delete "projects/ee-jzhao-external-dataset/assets/raster/urban-climate-in-europe/paris"
+     ```
   
 - Command line tool installation (for Mac)
   1. Use /bin/sh<br/>
