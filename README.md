@@ -25,7 +25,7 @@
      ```
      - image batch upload
      ```
-     geeup upload --source "C:/Users/jzhao/Downloads/nc/tif" --dest "projects/ee-jzhao-external-dataset/assets/raster/urban-climate-in-europe/paris" -m "C:/Users/jzhao/Downloads/nc/tif/metadata.csv" -u "zhao_jiacheng@outlook.com"
+     geeup upload --source "C:/Users/jzhao/Downloads/tif" --dest "projects/ee-jzhao-external-dataset/assets/raster/urban-climate-in-europe/paris" -m "C:/Users/jzhao/Downloads/nc/tif/metadata.csv" -u "zhao_jiacheng@outlook.com"
      ```
   
 - Command line tool installation (for Mac)
