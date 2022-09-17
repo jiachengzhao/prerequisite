@@ -66,22 +66,14 @@ https://stackoverflow.com/questions/65348890/python-was-not-found-run-without-ar
 geeup upload --source "D:/Data/MSWX/Monthly/Processed" --dest "projects/ee-jzhao-external-dataset/assets/raster/mswx/past/monthly" -m "D:/Data/MSWX/Monthly/Processed/metadata.csv" -u "zhao_jiacheng@outlook.com"
 ```
 ## R
-- Create an r package
-```
-require(devtools)
-setwd('C:/Users/jzhao/Documents/Nutstore/Projects')
-create('smot')
-```
 - Import windows fonts to R
 ```
 install.packages('remotes')
-remotes::install_version("Rttf2pt1", version = "1.3.8")
+remotes::install_version('Rttf2pt1', version = '1.3.8')
 install.packages('extrafont')
 extrafont::font_import()
-extrafont::loadfonts(device = "win")
-fonts()
+extrafont::loadfonts(device = 'win')
 ```
-
 - Rstudio header
 ```
 snippet header
@@ -95,5 +87,10 @@ snippet header
 	# Email: zhaojiacheng@mail.bnu.edu.cn
 	## ----------------------------------
 ```
-
+- Create an r package
+```
+require(devtools)
+setwd('C:/Users/jzhao/Documents/Nutstore/Projects')
+create('smot')
+```
 
