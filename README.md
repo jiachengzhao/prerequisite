@@ -15,10 +15,18 @@
   6. Set up geeup (cookies)<br/>
   Follow [this page](https://samapriya.github.io/geeup/).<br/>
   7. Examples<br/>
-     - help `geeup -h`<br/>
-     - get metadata `geeup getmeta --input "C:/Users/jzhao/Downloads/nc" --metadata "C:/Users/jzhao/Downloads/nc/metadata.csv"`<br/>
-     - image batch upload `geeup upload --source "C:/Users/jzhao/Downloads/nc/tif" --dest "projects/ee-jzhao-external-dataset/assets/raster/urban-climate-in-europe/paris" -m "C:/Users/jzhao/Downloads/nc/tif/metadata.csv" -u "zhao_jiacheng@outlook.com"`
-  
+     - help
+     ```
+     geeup -h
+     ```
+     - get metadata
+     ```
+     geeup getmeta --input "C:/Users/jzhao/Downloads/nc" --metadata "C:/Users/jzhao/Downloads/nc/metadata.csv"
+     ```
+     - image batch upload
+     ```
+     geeup upload --source "C:/Users/jzhao/Downloads/nc/tif" --dest "projects/ee-jzhao-external-dataset/assets/raster/urban-climate-in-europe/paris" -m "C:/Users/jzhao/Downloads/nc/tif/metadata.csv" -u "zhao_jiacheng@outlook.com"
+     ```
   
 - Command line tool installation (for Mac)
   1. Use /bin/sh<br/>
