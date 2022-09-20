@@ -65,6 +65,16 @@ https://stackoverflow.com/questions/65348890/python-was-not-found-run-without-ar
 ```
 geeup upload --source "D:/Data/MSWX/Monthly/Processed" --dest "projects/ee-jzhao-external-dataset/assets/raster/mswx/past/monthly" -m "D:/Data/MSWX/Monthly/Processed/metadata.csv" -u "zhao_jiacheng@outlook.com"
 ```
+
+
+- Reproject image1 to image2
+```
+image1.resample('bilinear').reproject({
+    crs: image2.projection().crs(),
+    scale: image2.projection().nominalScale()
+});
+```
+
 ## R
 - Import windows fonts to R
 ```
