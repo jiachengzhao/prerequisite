@@ -2,19 +2,25 @@
 
 ## Google Earth Engine (GEE)
 - Command line tool installation (for PC)
-  1. Conda install<br/>
+  1. Proxy setup<br/>
+  Set proxy enviornmental variables as<br/>
+  name: http_proxy <br/>
+  value: http://server:port (e.g., http://127.0.0.1:4780)<br/>
+  name: https_proxy <br/>
+  value: http://server:port (e.g., http://127.0.0.1:4780)<br/>
+  2. Conda install<br/>
   Follow [this page](https://developers.google.com/earth-engine/guides/python_install-conda).<br/>
-  2. Install the Google Cloud CLI<br/>
+  3. Install the Google Cloud CLI<br/>
   Follow [this page](https://cloud.google.com/sdk/docs/install-sdk).<br/>
-  3. Make python3 available<br/>
+  4. Make python3 available<br/>
   Follow [this page](https://stackoverflow.com/questions/39910730/python3-is-not-recognized-as-an-internal-or-external-command-operable-program).<br/>
-  4. Install geeup<br/>
+  5. Install geeup<br/>
   First re-open Terminal, and enter the ee environment you just created by `conda activate ee`. Install geeup by the command `pip install geeup`. After installation, test it by `geeup -h`.<br/>
-  5. Install geopandas<br/>
+  6. Install geopandas<br/>
   `conda install geopandas`.<br/>
-  6. Set up geeup (cookies)<br/>
+  7. Set up geeup (cookies)<br/>
   Follow [this page](https://samapriya.github.io/geeup/).<br/>
-  7. Examples<br/>
+  8. Examples<br/>
      - help
      ```
      geeup -h
