@@ -10,6 +10,7 @@
   value: http://server:port (e.g., http://127.0.0.1:4780)<br/>
   2. Conda install<br/>
   Follow [this page](https://developers.google.com/earth-engine/guides/python_install-conda).<br/>
+  Maybe add another channel, e.g., `conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/`.<br/>
   3. Install the Google Cloud CLI<br/>
   Follow [this page](https://cloud.google.com/sdk/docs/install-sdk).<br/>
   4. Make python3 available<br/>
