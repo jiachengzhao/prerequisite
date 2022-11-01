@@ -25,6 +25,8 @@
   Follow [this page](https://stackoverflow.com/questions/39910730/python3-is-not-recognized-as-an-internal-or-external-command-operable-program).<br/>
   5. Install geeup<br/>
   First re-open Terminal, and enter the ee environment you just created by `conda activate ee`. Install geeup by the command `pip install geeup`. After installation, test it by `geeup -h`.<br/>
+  6. Disable python aliases<br/>
+  Follow [this page](https://stackoverflow.com/questions/57485491/python-python3-executes-in-command-prompt-but-does-not-run-correctly).<br/>
   6. Install geopandas<br/>
   `conda install geopandas`.<br/>
   7. Set up geeup (cookies)<br/>
