@@ -114,6 +114,54 @@ snippet header
 	# Email: zhaojiacheng@mail.bnu.edu.cn
 	## ----------------------------------
 ```
+```
+snippet par
+	# cex --------------------------------
+	cex.axis = 1.1
+	cex.point = 1.7
+	cex.legend = 1
+	cex.label = 0.7
+	cex.axis.label = 0.8
+	cex.title = 1.5
+	
+	# font -------------------------------
+	font = 'Calibri'
+	
+	# lwd --------------------------------
+	lwd = 0.5
+	medlwd = 1.3
+	boxwex = 0.18
+	lwd.axis = 0.5
+	
+	# axis -------------------------------
+	x.axis.line = 2.2; y.axis.line = 1.8
+	mgp1 = c(3, 0.1, 0)
+	mgp2 = c(3, 0.2, 0)
+	mgp3 = c(3, 0.1, 0)
+	mgp4 = c(3, 0.2, 0)
+	tck = 0.03
+	
+	# legend -----------------------------
+	inset = c(0, 2)
+	x.intersp = 0.9; y.intersp = x.intersp
+	
+	# color ------------------------------
+	col = 'red'
+	cols = c('seagreen', 'gold')
+	
+	# par --------------------------------
+	par(
+	cex.axis = cex.axis,
+	family = font,
+	las = 1,
+	lwd = lwd,
+	mai = c(0, 0.5, 0, 0.2),
+	mfrow = c(6, 1),
+	oma = c(6.5, 1.5, 2, 1),
+	tck = tck
+	)
+
+```
 - Create an r package
 ```
 require(devtools)
