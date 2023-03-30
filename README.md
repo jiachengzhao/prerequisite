@@ -8,6 +8,7 @@
   value: http://server:port (e.g., http://127.0.0.1:4780)<br/>
   name: https_proxy <br/>
   value: http://server:port (e.g., http://127.0.0.1:4780)<br/>
+  
   2. Conda install<br/>
   Follow [this page](https://developers.google.com/earth-engine/guides/python_install-conda).<br/>
   Maybe add another channels, e.g.,<br/>
@@ -18,20 +19,28 @@
   `conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/`<br/>
   `conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/`<br/>
   `conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/`<br/>
-  Change conda to default channel: `conda config --remove-key channels`<br/>.
+  Change conda to default channel: `conda config --remove-key channels`.<br/>
+  Set environmental variables following [this page](https://stackoverflow.com/questions/44515769/conda-is-not-recognized-as-internal-or-external-command).<br/>
+  
   3. Install the Google Cloud CLI<br/>
   Follow [this page](https://cloud.google.com/sdk/docs/install-sdk).<br/>
+  
   4. Make python3 available<br/>
   Follow [this page](https://stackoverflow.com/questions/39910730/python3-is-not-recognized-as-an-internal-or-external-command-operable-program).<br/>
+  
   5. Install geeup<br/>
   First re-open Terminal, and enter the ee environment you just created by `conda activate ee`. Install geeup by the command `pip install geeup`. After installation, test it by `geeup -h`.<br/>
+  
   6. Disable python aliases<br/>
   Follow [this page](https://stackoverflow.com/questions/57485491/python-python3-executes-in-command-prompt-but-does-not-run-correctly).<br/>
-  6. Install geopandas<br/>
+  
+  7. Install geopandas<br/>
   `conda install geopandas`.<br/>
-  7. Set up geeup (cookies)<br/>
+  
+  8. Set up geeup (cookies)<br/>
   Follow [this page](https://samapriya.github.io/geeup/).<br/>
-  8. Examples<br/>
+  
+  9. Examples<br/>
      - help
      ```
      geeup -h
