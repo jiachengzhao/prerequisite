@@ -47,7 +47,7 @@
      ```
      - get metadata
      ```
-     geeup getmeta --input "C:/Users/jzhao/Downloads/nc" --metadata "C:/Users/jzhao/Downloads/nc/metadata.csv"
+     geeup getmeta --input "C:/Users/zhao_/Nutstore/1/Nutstore/wc_10m_prec" --metadata "C:/Users/zhao_/Nutstore/1/Nutstore/wc_10m_prec/metadata.csv"
      ```
      - image batch upload
      ```
