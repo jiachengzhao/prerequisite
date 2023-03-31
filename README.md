@@ -15,7 +15,7 @@
   `conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/`<br/>
   `conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/`<br/>
   Change conda to default channel: `conda config --remove-key channels`.<br/>
-  Set environmental variables following [this page](https://stackoverflow.com/questions/44515769/conda-is-not-recognized-as-internal-or-external-command).<br/>
+  Set environment variables following [this page](https://stackoverflow.com/questions/44515769/conda-is-not-recognized-as-internal-or-external-command).<br/>
   
   3. Install the Google Cloud CLI<br/>
   Follow [this page](https://cloud.google.com/sdk/docs/install-sdk).<br/>
@@ -23,9 +23,9 @@
   4. Authentication Earth Engine<br/>
   First set enviornment variables as<br/>
   name: http_proxy <br/>
-  value: http://server:port (e.g., http://127.0.0.1:7890)<br/>
+  value: socks5://server:port (e.g., socks5://127.0.0.1:7890)<br/>
   name: https_proxy <br/>
-  value: http://server:port (e.g., http://127.0.0.1:7890)<br/>
+  value: socks5://server:port (e.g., socks5://127.0.0.1:7890)<br/>
   and then authenticate Earth Engine
      ```
      set http_proxy=socks5://127.0.0.1:7890
