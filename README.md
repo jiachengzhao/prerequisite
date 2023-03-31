@@ -31,6 +31,8 @@
      set http_proxy=socks5://127.0.0.1:7890
      set https_proxy=socks5://127.0.0.1:7890
      earthengine authenticate
+     set http_proxy=
+     set https_proxy=
      ```
   
   
