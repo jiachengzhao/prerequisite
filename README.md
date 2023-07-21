@@ -128,8 +128,8 @@ snippet header
 	# Created by: Jiacheng Zhao
 	# Created on: `r Sys.Date()`
 	# Copyright (c) Jiacheng Zhao, `r format(Sys.Date(), "%Y")`
-	# Beijing Normal University
-	# Email: zhaojiacheng@mail.bnu.edu.cn
+	# Nanjing University of Information Science & Technology
+	# Email: jzhao@nuist.edu.cn
 	## ----------------------------------
 ```
 ```
