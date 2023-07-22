@@ -128,7 +128,7 @@ snippet header
 	# Created by: Jiacheng Zhao
 	# Created on: `r Sys.Date()`
 	# Copyright (c) Jiacheng Zhao, `r format(Sys.Date(), "%Y")`
-	# Nanjing University of Information Science & Technology
+	# Nanjing University of Information Science & Technology (NUIST)
 	# Email: jzhao@nuist.edu.cn
 	## ----------------------------------
 ```
