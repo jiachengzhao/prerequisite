@@ -66,6 +66,10 @@
      ```
      geeup delete "projects/ee-jzhao-external-dataset/assets/raster/urban-climate-in-europe/paris"
      ```
+      - upgrade geeup
+     ```
+     pip install --upgrade geeup
+     ```
   
 - Command line tool installation (for Mac)
   1. Use /bin/sh<br/>
