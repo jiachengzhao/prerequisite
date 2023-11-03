@@ -6,7 +6,7 @@
   
   2. Conda install<br/>
   Follow [this page](https://developers.google.com/earth-engine/guides/python_install-conda).<br/>
-  Maybe add another channels, e.g.,<br/>
+  Maybe add other channels, e.g.,<br/>
   `conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/`<br/>
   `conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/`<br/>
   `conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/`<br/>
@@ -14,14 +14,14 @@
   `conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/`<br/>
   `conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/`<br/>
   `conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/`<br/>
-  Change conda to default channel: `conda config --remove-key channels`.<br/>
+  Change conda to default channel: `conda config --remove-key channels`<br/>
   Set environment variables following [this page](https://stackoverflow.com/questions/44515769/conda-is-not-recognized-as-internal-or-external-command).<br/>
   
   3. Install the Google Cloud CLI<br/>
   Follow [this page](https://cloud.google.com/sdk/docs/install-sdk).<br/>
   
   4. Authentication Earth Engine<br/>
-  First set enviornment variables as<br/>
+  First set environment variables as<br/>
   name: http_proxy <br/>
   value: socks5://server:port (e.g., socks5://127.0.0.1:7890)<br/>
   name: https_proxy <br/>
@@ -85,7 +85,7 @@
   Follow [this page](https://www.geeksforgeeks.org/how-to-install-pip-in-macos/). You may need to install the command line developer tools.<br/>
   5. Set up environmental variables<br/>
      - Create a profile file if you don't have one by opening Terminal and issuing the command `touch .profile`, then close Terminal.<br/>
-     - Add the two lines below to the profile file either manully (the file should be hidden in /Users/\<your username>\/.profile) or by `vim ~/.profile`.<br/>
+     - Add the two lines below to the profile file either manually (the file should be hidden in /Users/\<your username>\/.profile) or by `vim ~/.profile`.<br/>
      ```
      export PATH=/Users/<your username>/miniconda3/bin:$PATH
      export PATH=/Users/<your username>/google-cloud-sdk/bin:$PATH
@@ -115,7 +115,7 @@ image1.resample('bilinear').reproject({
 ```
 
 ## R
-- Import windows fonts to R
+- Import Windows fonts to R
 ```
 install.packages('remotes')
 remotes::install_version('Rttf2pt1', version = '1.3.8')
