@@ -64,7 +64,7 @@
      ```
      - delete image/image collection
      ```
-     geeup delete "projects/ee-jzhao-external-dataset/assets/raster/urban-climate-in-europe/paris"
+     geeup delete --id projects/ee-jzhao-crop-response-to-o3/assets/viirs-sr-red-500-filling
      ```
       - upgrade geeup
      ```
