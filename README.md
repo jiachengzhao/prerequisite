@@ -191,3 +191,12 @@ setwd('C:/Users/jzhao/Documents/Nutstore/Projects')
 create('smot')
 ```
 
+- Pattern matching and replacement
+```
+DT[grep('(?=.*A)(?!.*W)', group, perl = T)]
+```
+
+
+
+
+
