@@ -196,7 +196,11 @@ create('smot')
 DT[grep('(?=.*A)(?!.*W)', group, perl = T)]
 ```
 
-
+## era5cli
+- Requests of ERA5-Land hourly data
+   ```
+   era5cli hourly --land --variables 2m_temperature  --startyear 1950 --endyear 1950 --splitmonths True
+   ```
 
 
 
