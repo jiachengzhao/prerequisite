@@ -202,5 +202,9 @@ DT[grep('(?=.*A)(?!.*W)', group, perl = T)]
    era5cli hourly --land --variables 2m_temperature  --startyear 1950 --endyear 1950 --splitmonths True
    ```
 
-
+## 7zip
+- Batch unzip
+   ```
+"C:\Program Files\7-zip\7z.exe" e *.zip
+   ```
 
