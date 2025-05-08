@@ -70,6 +70,13 @@
      ```
      pip install --upgrade geeup
      ```
+
+   - collection copy
+     ```
+     geeadd copy --initial projects/earthengine-legacy/assets/users/zhao/sif-and-vegetation-index/sensitivity-ridge-v1 --final projects/earthengine-legacy/assets/users/zhao/sif-and-vegetation-index/sensitivity-z-ridge
+     ```
+
+     
   
 - Command line tool installation (for Mac)
   1. Use /bin/sh<br/>
